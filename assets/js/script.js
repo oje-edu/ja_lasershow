@@ -31,7 +31,7 @@ grd.addColorStop(1, 'rgba(255,255,255, 0.2)');
 
 class Particle {
   constructor() {
-    this.radius = Math.random() * 300 + 20;
+    this.radius = Math.random() * 200 + 10;
     this.x = Math.random() * canvas.width;
     this.y = canvas.height + this.radius * 2;
     this.speedY = Math.random() * 5 + 1;
